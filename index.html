@@ -1,79 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html> 
     <head>
-        <title>Wheaton street machines</title>
-        <link rel="stylesheet" type="text/css" href="landingpage.css">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
         <header>
-            <img src="resources/images/logo.png" alt="WheatonStreetMachines">
-            <h1>Wheaton Street Machines</h1>
             <nav>
-                <ul>
-                    <li><a href="https://www.facebook.com/profile.php?id=100023686595221" target="_blank">Facebook</a></li>
-                    <li><a href="#welcome">Welcome</a></li>
-                    <li><a href="#burnouts">Burnouts</a></li>
-                    <li><a href="#events">events</a></li>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
+            <h1>Vibes Codeworks</h1>
+            <img src="resources/watermark.png" alt="Vibes Codeworks Logo">
         </header>
         <main>
-            <!--about section-->
-            <div id="welcome" class="About-container">
-                <img src="resources/images/background.jpg" alt="about">
-                <div class="content">
-                    <h1>Welcome to Wheaton Street Machines</h1>
-                    <p>Wheaton Street Machines LLC is a 30+ year old car club based in Wheaton Missouri.
-                         Known for French Fries and Burnouts, 
-                         one of the longest running cruise in's running several months every show season since the 90's.</p>
-                </div>
+            <section class="hero-section">
+                <h2>Welcome to Vibes Codeworks</h2>
+                    <p>
+                     At Vibes Codeworks, I combine creativity and technical expertise to craft modern, effective websites.
+                     As a small business myself, I understand the challenges of establishing an online presence. 
+                     My mission is to empower other small businesses by providing accessible, 
+                     high-quality web solutions that help them grow and succeed in the digital world.
+                    </p>
+            </section>
+            <div class="logo-section">
+                <img src="resources/logo.png" alt="Vibes Codeworks Logo">   
             </div>
-            <!--burnout pad-->
-            <div id="burnouts" class="burnout-container">
-                    <h2>Burnout pad</h2>
-                <div class="burnout-box">
-                    <div class="burnout">
-                        <img src="resources/images/burnout1.jpg" alt="burnout">
-                        <p>"Quote here"</p>
-                    </div>
-                    <div class="burnout">
-                        <img src="resources/images/burnout2.jpg" alt="burnout">
-                        <p>"Quote here"</p>
-                    </div>
-                    <div class="burnout">
-                        <img src="resources/images/burnout3.jpg" alt="burnout">
-                        <p>"Quote here"</p>
-                    </div>
-                </div>
-            </div>
-            <!--upcoming events photo changes after the most upcoming event passes-->
-            <div id="events" class="upcoming-events-container">
-                
-                <div class="upcoming-events">
-                    <h2>Upcoming Events</h2>
-                    <ul>
-                        <li>Event 1</li>
-                        <li>Event 2</li>
-                        <li>Event 3</li>
-                        <li>Event 4</li>
-                        <li>Event 5</li>
-                    </ul>
-                </div>
-                <div class="next-event">
-                    <img src="resources/images/schedule.jpg" alt="next event">
-                </div>
-            </div>
+            <section class="services-section">
+                <h2>Services</h2>
+                <ul>
+                    <li>Web Design</li>
+                    <li>Web Development</li>
+                    <li>Search Engine Optimization</li>
+                    <li>Content Management</li>
+                </ul>
+                <button>Contact</button>
+            </section>
         </main>
         <footer>
-            <nav>
-                <ul>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Burnouts</a></li>
-                    <li><a href="#">events</a></li>
-                </ul>
-            </nav>
+            <p>&copy; 2025 Vibes Codeworks</p>
         </footer>
     </body>
 </html>
