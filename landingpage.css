@@ -27,4 +27,13 @@ main{
 }
 .hero-content{
     display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-top: 2rem;
+}
+.hero-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 50%;
 }
