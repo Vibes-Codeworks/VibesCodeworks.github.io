@@ -55,6 +55,7 @@ main{
     align-items: center;
     border: black 1px solid;
     width: 20rem;
+    padding: 1rem;
 }
 .project img{
     width: 10rem;
