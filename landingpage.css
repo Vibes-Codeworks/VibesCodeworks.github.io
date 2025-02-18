@@ -1,3 +1,9 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(84, 94, 100, 0.945);               
+}
 header{
    position: fixed;
     z-index: 100;
@@ -5,13 +11,14 @@ header{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    max-height: 20rem;
+    margin: 0;
     padding: 0;
-    background-color: black;  /*temp*/
-    color: white;                /*temp*/
+    background-color: rgba(84, 94, 100, 0.945); 
+    background-size: cover; 
+    color: rgba(25, 152, 236, 0.945);;                
 }
 header img{
-    width: 10rem;
+    width: 8rem;
     height: auto;
 }
 header nav li{
@@ -29,9 +36,10 @@ main{
 .hero-content{
     display: flex;
     justify-content: space-evenly;
-    align-items: flex-end;
-    margin-top: 2rem;
-    border-bottom: black 1px solid;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-bottom: rgba(84, 94, 100, 0.945) .5rem solid;
 }
 .hero-section{
     display: flex;
@@ -39,20 +47,46 @@ main{
     justify-content: space-around;
     width: 50%;
 }
+/*projects section*/
+.project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: black 1px solid;
+    width: 30rem;
+}
+.project img{
+    width: 10rem;
+    height: auto;
+}
+.projects-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+    border-bottom: rgba(84, 94, 100, 0.945).5rem solid;
+}
 /*services section*/
 .services-container{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 4rem;
-    border-bottom: black 1px solid;
+    border-bottom: rgba(84, 94, 100, 0.945) .5rem solid;
 }
 .services-section{
-  /*order: 1px solid black;*/
     padding: 1rem;
 }
 .button-section{
     display: flex;
     flex-direction: column;
     gap: 1rem;  
+}
+/*hover effect*/
+a:hover{
+    color: rgba(25, 152, 236, 0.945);
+    transition: color .5s;
+}
+a{
+    color: black;
+    text-decoration: none;
 }
