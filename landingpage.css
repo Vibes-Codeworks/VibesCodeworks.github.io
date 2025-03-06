@@ -26,6 +26,15 @@ header nav li{
     display: inline;
     margin: 0 1rem;
 }
+.menu-toggle {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+
 main{
     padding-top: 10rem;
 }
@@ -95,4 +104,43 @@ a:hover{
 a{
     color: black;
     text-decoration: none;
+}
+/*media queries*/
+@media (max-width: 768px) {
+    header h1{
+        display: none;
+    }
+    .logo-section img{
+       display: none;
+    }
+    .logo-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .funfacts-container{
+        display: none;
+    }
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: rgba(84, 94, 100, 0.945);
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
+
+    .nav-links li {
+        text-align: center;
+        margin: 1rem 0;
+    }
+
+    .nav-links.show {
+        display: flex;
+    }
 }
