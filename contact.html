@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact page</title>
+        <link rel="stylesheet" type="text/css" href="./styles/contact.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<header>
+    <img src="resources/images/watermark.png" alt="Vibes Codeworks Logo">
+    <h1>Vibes Codeworks</h1>
+    <nav>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="https://github.com/Vibes-Codeworks/Portfolio" target="_blank" rel="noopener">Projects</a></li>
+            <li><a href="contact.html" >Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+<div class="form-container">
+    <h2>Contact Us</h2>
+<form action="https://formspree.io/f/mgvalpvk" method="post">
+<label for="name" class="name">Name:
+    <input type="text" name="name" placeholder="Your Name" required>
+</label>
+<label for="email" class= "email" >
+    Email:
+    <input type="email" name="email" placeholder="Your Email" required>
+</label>
+<label for="Phone" class="phone">
+    Phone number:
+    <input type="number" name="phone" placeholder="Your Phone Number" required>
+</label>
+<label for="contactmethod">
+    Contact method
+    <input type="text" name="preferred" placeholder="i.e Text any time of day" >
+</label>
+<label for="message" class="message">
+    Message
+    <input type="text" name="message" placeholder="Your message">
+</label>
+<button id="submit" type="submit">Send</button>
+</form>
+</div>
+</main>
+<script src="script.js"></script>
+<footer>
+    <p>&copy; 2025 Vibes Codeworks</p>
+</footer>
+</body>
+</html>
